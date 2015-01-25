@@ -4,10 +4,11 @@ html {
 }
 
 #header {
-	background-image: url("imgs/header.jpg");
+	background-image: url(imgs/header.jpg);
 	position: relative;
 	bottom: 8px;
 	right: 0px;
+	background-repeat: no-repeat;
 }
 
 header nav a {
@@ -22,6 +23,8 @@ header nav a {
     letter-spacing: 0.05em;
     clear: both;
     padding-top: 100px;
+    position: relative;
+    bottom: 60px;
 }
 
 #header h1 span {
@@ -36,7 +39,7 @@ header .kicker {
     color: white;
     line-height: 1;
     position: relative;
-    bottom: 40px;
+    bottom: 60px;
 }
 
 header nav {
